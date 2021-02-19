@@ -1,15 +1,13 @@
-package com.company;
+package com.company.model.Data;
 
 import com.company.model.Employee;
 
 import java.util.ArrayList;
 import java.util.List;
 
+public class Data {
 
-
-public class Main {
-
-    public static void main(String[] args) {
+		public static List<Employee> employees() {
         List<Employee> employees = new ArrayList<>();
         Employee e1 = new Employee("mehdi", "blueWorker", 100);
         Employee e2 = new Employee("nader", "blueWorker", 100);
@@ -43,7 +41,6 @@ public class Main {
         employees.add(e8);
         employees.add(e9);
         employees.add(e10);
-        employees.add(e11);
         employees.add(e12);
         employees.add(e13);
         employees.add(e14);
@@ -54,7 +51,7 @@ public class Main {
         employees.add(e19);
         employees.add(e20);
         employees.add(e21);
-        System.out.println( employees);
-        // write your code here
+
+        return employees;
     }
 }
