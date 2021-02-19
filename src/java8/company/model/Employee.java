@@ -1,4 +1,4 @@
-package com.company.model;
+package java8.company.model;
 
 public class Employee {
 

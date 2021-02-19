@@ -1,6 +1,6 @@
-package com.company.model.Data;
+package java8.company.Data;
 
-import com.company.model.Employee;
+import java8.company.model.Employee;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,6 +1,6 @@
-package com.company.levels;
+package java8.company.levels;
 
-public class Level3 {
+public class Level2 {
     public static void main(String[] args) {
 
     }
